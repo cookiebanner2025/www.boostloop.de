@@ -200,23 +200,23 @@ geoConfig: {
         transition: 'all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)',
         
        accept: {
-    background: '#2ecc71 !important',
-    color: '#ffffff !important',
-    border: '1px solid #2ecc71 !important',
+    background: '#fcbb2d !important',
+    color: '#333333 !important',
+    border: '1px solid #e0e0e0 !important',
     hover: {
-        background: '#27ae60 !important',
-        color: '#ffffff !important',
+        background: '#fcbb2d !important',
+        color: '#333333 !important',
         transform: 'translateY(-1px) !important'
     }
         },
         
         reject: {
             background: '#ffffff',
-            color: '#e74c3c',
-            border: '1px solid #e74c3c',
+            color: '#333333',
+            border: '1px solid #e0e0e0',
             hover: {
-                background: '#ffeeed',
-                color: '#e74c3c',
+                background: '#ffffff',
+                color: '#333333',
                 transform: 'translateY(-1px)'
             }
         },
