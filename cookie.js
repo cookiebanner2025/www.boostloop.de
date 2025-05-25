@@ -130,7 +130,7 @@ const config = {
     languageConfig: {
         defaultLanguage: 'de',
         availableLanguages: [], // Only en and fr as requested
-        showLanguageSelector: true,
+        showLanguageSelector: false,
         autoDetectLanguage: true
     },
     
@@ -168,7 +168,7 @@ geoConfig: {
         background: '#ffffff',
         borderRadius: '12px',
         boxShadow: '0 8px 32px rgba(0, 0, 0, 0.12)',
-        width: '465px',
+        width: '569px',
         padding: '24px',
         textColor: '#2c3e50',
         linkColor: '#3498db',
