@@ -57,7 +57,7 @@ const config = {
     allowedDomains: [],
     
     // Privacy policy URL (configurable)
-    privacyPolicyUrl: 'https://www.boostloop.de/#privacy-policy', // Add your full privacy policy URL here
+    privacyPolicyUrl: 'https://www.boostloop.de/datenschutz', // Add your full privacy policy URL here
 
 
    
@@ -2686,6 +2686,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         font-weight: 500;
         display: inline-block;
         transition: color 0.2s ease;
+        display: none;
     }
 
     .see-analytics-link:hover {
